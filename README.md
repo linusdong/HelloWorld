@@ -1,9 +1,9 @@
 # How to make the project running
-This is the guide for first time user. Other documentation please click [here] (https://github.com/ReadmeSystemsInc/readmesys/tree/master/documents "documantation")
+This is the guide for first time user. Other documentation please click [here] (https://github.com/ReadmeSystemsInc/readmesys/tree/master/documents "Documantation")
 
 ## Table of contents
-[TOC]
-
+	* [Prerequisite] (#prerequisite-jan-31st-2014 "Jump")
+	* 
 ## Prerequisite (Jan 31st, 2014)
 	* Git 1.8.1.x
 	* Spring Tool Suite 3.4.x with Tomcat 7.x
