@@ -69,6 +69,7 @@ There is no "shutdown" command in cassandra, it's designed to be stopped by kill
 	;; Mac OS use this
 	kill $(cat cassandrapidfile)
 	;; Linux use this
+	kill $(cat cassandrapidfile)
 	kill $(ps ef |grep cassandra|grep java|cut -f2 -d" ")
 
 Back to [Table of Contents] (#table-of-contents)
