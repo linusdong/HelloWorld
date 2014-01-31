@@ -1,5 +1,5 @@
 # How to make the project running
-This is the guide for first time user. Other documentation please click here <https://github.com/ReadmeSystemsInc/readmesys/tree/master/documents>
+This is the guide for first time user. Other documentation please click [Resize] (https://github.com/ReadmeSystemsInc/readmesys/tree/master/documents "here")
 
 ## Prerequisite (Jan 31st, 2014)
 	* Git 1.8.1.x
