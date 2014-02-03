@@ -44,9 +44,41 @@ Make sure that both of these directories exist and are writeable by Cassandra
 
 ## Import the project and data
 
+### Start database server
+Go to the source file folder
+
+	;; Start Cassandra server in one shell
+	./bin/cassandra -p cassandrapidfile
+
+### Create schema with CQL client
+1. Use the attached CQL script to create example keyspace/columnfamily. Create the needed keyspace/columnfamily by running
+  
+        ./bin/cqlsh < <repo-path>/readmesys/deployment/vagrant-readmesys/data/schema/readmesys.cql
+        ./bin/cqlsh < <repo-path>/readmesys/deployment/vagrant-readmesys/data/schema/factorySetup.cql
+        ./bin/cqlsh < <repo-path>/readmesys/deployment/vagrant-readmesys/data/schema/demoSetup.cql
+
+### Setup webapp
+1. Check out the readmesys project to local directory
+2. Import existing Maven project using menu command
+3. Run the **webapp* by selecting with menu command
+   
+        Run As/Run On Server with
+
 Back to [Table of Contents] (#table-of-contents)
 
 ## Verify the components
+
+Login the portal
+ 
+	User Name:
+	dianne@readmesys.com
+	
+	Password:
+	emu
+
+Add sensors to the demo
+
+Generate dummy data
 
 Back to [Table of Contents] (#table-of-contents)
 
