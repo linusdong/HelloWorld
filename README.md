@@ -7,7 +7,7 @@ This is a guide for the first time user. Other documentation please click [here]
 * [Install] (#install "look down")
 * [Import the project and data] (#import-the-project-and-data "Jump") 
 * [Verify the components] (#verify-the-components "Jump")
-* [Run the project] (#run-the-project "To buttom")
+* [Run the simulation] (#run-the-simulation "To buttom")
 * [Troubleshooting] (#troubleshooting "Ease your headache!")
 
 ## Prerequisite (Jan 31st, 2014)
@@ -82,7 +82,11 @@ Generate dummy data
 
 Back to [Table of Contents] (#table-of-contents)
 
-## Run the project
+## Run the simulation
+
+1. run project "webapp" as "Run on server"
+2. execute "TopologyRunner.java" under project "analytics" as "Java Application"
+3. execute "SensorDataToGatewayAPI.java" under project "simulator" as "Java Application"
 
 Back to [Table of Contents] (#table-of-contents)
 
