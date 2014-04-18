@@ -17,6 +17,8 @@ Create several folders, "storm", "cassandra", "jdk", "other"
    - cassandra/apache-cassandra-2.0.1-bin.tar.gz
    - jdk/jdk-7u40-linux-x64.tar.gz
    - other/apache-tomcat-7.0.42.tar.gz
+
+[Click here for visual guidance](http://1drv.ms/QlsaFb)
    
 #### If you want to rsync any files to AWS instance
 
