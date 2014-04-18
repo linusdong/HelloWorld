@@ -1,4 +1,4 @@
-# How to make the project running
+# How to make the project running simulation
 This is a guide for the first time user. Other documentation please click [here] (https://github.com/ReadmeSystemsInc/readmesys/tree/master/documents "Documantation")
 
 ## Table of contents
@@ -31,6 +31,7 @@ Install all required software, you can download
 * [Apache Tomcat Eclipse Integration] (http://www.eclipse.org/webtools/jst/components/ws/1.5/tutorials/InstallTomcat/InstallTomcat.html)
 * NoSQL database [Cassandra] (http://planetcassandra.org/Download/StartDownload)
 * Maven 3.1.1 [here] (http://mirror.cogentco.com/pub/apache/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.zip)
+
 By default, Cassandra uses the following directories for data and commitlog storage
 
 	/var/lib/cassandra
@@ -78,6 +79,8 @@ Login the portal
 	emu
 
 Add sensors to the demo
+
+	click the "settings", then add one dummy sensor and one dummy gateway
 
 Generate dummy data
 
