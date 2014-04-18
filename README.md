@@ -3,15 +3,15 @@ This is a guide for the first time user. Other documentation please click [here]
 
 ## Table of contents
 
-* [Prerequisite] (#prerequisite-jan-31st-2014 "look down")
+* [Prerequisite] (#prerequisite-apr-18th-2014 "look down")
 * [Install] (#install "look down")
 * [Import the project and data] (#import-the-project-and-data "Jump") 
 * [Verify the components] (#verify-the-components "Jump")
 * [Run the simulation] (#run-the-simulation "To buttom")
 * [Troubleshooting] (#troubleshooting "Ease your headache!")
 
-## Prerequisite (Jan 31st, 2014)
-* JDK 1.7 and above
+## Prerequisite (Apr 18th, 2014)
+* JDK 1.7 and above, ocrale JDK recommanded.
 	
 > java -version
 
@@ -19,6 +19,7 @@ This is a guide for the first time user. Other documentation please click [here]
 * Git 1.8.1.x
 * Spring Tool Suite 3.4.x with Tomcat 7.x
 * Apache Cassandra 2.0.x
+* Maven 3.1.1 (To avoid compile compliant while in build process)
 
 ## Install
 Install all required software, you can download 
@@ -29,7 +30,7 @@ Install all required software, you can download
 * Spring Tool Suite [here] (http://spring.io/tools/sts/all "STS")
 * [Apache Tomcat Eclipse Integration] (http://www.eclipse.org/webtools/jst/components/ws/1.5/tutorials/InstallTomcat/InstallTomcat.html)
 * NoSQL database [Cassandra] (http://planetcassandra.org/Download/StartDownload)
-
+* Maven 3.1.1 [here] (http://mirror.cogentco.com/pub/apache/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.zip)
 By default, Cassandra uses the following directories for data and commitlog storage
 
 	/var/lib/cassandra
