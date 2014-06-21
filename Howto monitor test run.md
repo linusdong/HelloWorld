@@ -1,6 +1,8 @@
 Step1
 >cd /home/mike/newDevelopment-Mar-25-2014/vagrant-readmesys
+
 >vagrant ssh stormserver
+
 >cd /opt/storm-0.9.0.1/logs
 
 grep "MAC address"
