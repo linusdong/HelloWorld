@@ -10,3 +10,6 @@ grep "MAC address"
 
 grep "HeartBeat"
 >grep "Heart" worker-6700.log | tail | grep "Heart"
+
+grep "EXIT/ENTRY/LINGER" (ALL CAP)
+>grep "EXIT" worker-670*.log | tail
